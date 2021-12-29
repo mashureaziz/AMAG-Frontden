@@ -14,7 +14,6 @@ export const Orders = () => {
   const [rowsPerPage, setRowsPerPage] = useState(5);
   const [page, setPage] = useState(0);
   const [sites, setSites] = useState([]);
-  const [siteNo, setSiteNo] = useState();
   const [displayModal, setDisplayModal] = useState(false);
 
   const handleChangePage = (event, newPage) => {
@@ -33,7 +32,6 @@ export const Orders = () => {
   };
 
   const toggleModal = () => {
-    setSiteNo(sites[sites.length - 1].siteNo);
     setDisplayModal(true);
   };
 
@@ -69,9 +67,9 @@ export const Orders = () => {
       >
         <div>
           <SiteAudit
+            siteNo={parseInt(Math.random() * 100 + 50, 10)}
             toggleSave={toggleSave}
             handleClose={handleClose}
-            siteNo={siteNo}
             setRefresh={setRefresh}
           />
         </div>

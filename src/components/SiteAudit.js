@@ -131,7 +131,7 @@ export default function SiteAudit(props) {
       data.forEach((val, key) => {
         content[key.toLowerCase()] = val;
       });
-      content = { ...content, user: '61c99b478b1d34621110d48b', siteNo: parseInt(Math.random() * 100 + 50, 10) };
+      content = { ...content, user: '61c99b478b1d34621110d48b', siteNo };
 
       // Send HTTP Request
       sendRequest(`${process.env.REACT_APP_BASE_URL}/api/v1/site/${!isNew ? `${siteId}` : ''}`, isNew ? 'POST' : 'PUT', content)
