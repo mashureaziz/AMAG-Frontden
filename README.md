@@ -46,7 +46,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Install
 
     $ git clone https://github.com/mashureaziz/AMAG-Frontend
-    $ cd AMAG-Backend
+    $ cd AMAG-Frontend
     $ npm install
 
 
@@ -57,7 +57,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Running tests
 
-    $ npm test (Run unit tests)
+    $ npm test
     
 
 ## Simple build for production
