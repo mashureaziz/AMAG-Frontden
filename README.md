@@ -1,7 +1,8 @@
 # AMAG-Frontend
 
 Assignment for Full-Stack engineer position for AMAG technology.
-
+## Demo Url
+http://54.151.129.125:3000
 ---
 ## Requirements
 
