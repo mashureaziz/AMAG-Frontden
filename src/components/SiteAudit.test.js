@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event';
 
 import SiteAudit from './SiteAudit';
 
-// Test all form form components properly render
+// Test all form components properly render
 describe('Test Audit Form Components', () => {
   render(<SiteAudit
     siteNo={30}
@@ -64,6 +64,7 @@ describe('Test Audit Form Components', () => {
   });
 });
 
+// Test input validations are performed properly
 describe('Test input validation', () => {
   test('Name cannot be empty', () => {
     const result = render(<SiteAudit
