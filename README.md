@@ -1,13 +1,3 @@
-# AMAG-Frontend
-
-Assignment for Full-Stack engineer position for AMAG technology.
-
-## Project Demo
-http://54.151.129.125:3000
-
-## System Documentaion
-https://docs.google.com/document/d/1mE8CewNnnbmAaC4mwq226UR0BQ851e_90IJz38m1D-A/edit?usp=sharing
-
 ---
 ## Requirements
 
